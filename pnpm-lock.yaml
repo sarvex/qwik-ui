@@ -28,7 +28,7 @@ importers:
         version: 3.10.7(@babel/core@7.21.3)(@babel/preset-env@7.20.2)(babel-loader@9.1.2)(cypress@12.9.0)(webpack@5.82.0)
       '@cypress/vite-dev-server':
         specifier: ^2.2.1
-        version: 2.2.3(vite@4.3.3)
+        version: 2.2.3(vite@4.3.9)
       '@floating-ui/dom':
         specifier: 1.0.10
         version: 1.0.10
@@ -55,7 +55,7 @@ importers:
         version: 16.0.3(cypress@12.9.0)(eslint@8.36.0)(nx@16.0.3)(typescript@5.0.4)
       '@nx/vite':
         specifier: 16.0.3
-        version: 16.0.3(nx@16.0.3)(typescript@5.0.4)(vite@4.3.3)(vitest@0.30.1)
+        version: 16.0.3(nx@16.0.3)(typescript@5.0.4)(vite@4.3.9)(vitest@0.30.1)
       '@nx/workspace':
         specifier: 16.0.3
         version: 16.0.3
@@ -79,13 +79,13 @@ importers:
         version: 7.0.8(react-dom@18.2.0)(react@18.2.0)
       '@storybook/builder-vite':
         specifier: 7.0.8
-        version: 7.0.8(typescript@5.0.4)(vite@4.3.3)
+        version: 7.0.8(typescript@5.0.4)(vite@4.3.9)
       '@storybook/html':
         specifier: 7.0.8
         version: 7.0.8(@babel/core@7.21.3)
       '@storybook/html-vite':
         specifier: 7.0.8
-        version: 7.0.8(@babel/core@7.21.3)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4)(vite@4.3.3)
+        version: 7.0.8(@babel/core@7.21.3)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4)(vite@4.3.9)
       '@storybook/jest':
         specifier: 0.1.0
         version: 0.1.0
@@ -214,7 +214,7 @@ importers:
         version: 3.1.3(prettier@2.8.8)
       qwik-nx:
         specifier: 1.0.0
-        version: 1.0.0(eslint@8.36.0)(nx@16.0.3)(typescript@5.0.4)(vite@4.3.3)(vitest@0.30.1)
+        version: 1.0.0(eslint@8.36.0)(nx@16.0.3)(typescript@5.0.4)(vite@4.3.9)(vitest@0.30.1)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -229,7 +229,7 @@ importers:
         version: 7.0.0-rc.7
       storybook-framework-qwik:
         specifier: 0.2.0
-        version: 0.2.0(@builder.io/qwik@1.0.0)(typescript@5.0.4)(vite@4.3.3)
+        version: 0.2.0(@builder.io/qwik@1.0.0)(typescript@5.0.4)(vite@4.3.9)
       tailwindcss:
         specifier: ^3.2.6
         version: 3.2.6(postcss@8.4.21)(ts-node@10.9.1)
@@ -243,17 +243,17 @@ importers:
         specifier: 5.22.0
         version: 5.22.0
       vite:
-        specifier: 4.3.3
-        version: 4.3.3(@types/node@18.16.1)(sass@1.58.1)
+        specifier: 4.3.9
+        version: 4.3.9(@types/node@18.16.1)(sass@1.58.1)
       vite-plugin-dts:
         specifier: ~1.7.3
-        version: 1.7.3(@types/node@18.16.1)(vite@4.3.3)
+        version: 1.7.3(@types/node@18.16.1)(vite@4.3.9)
       vite-plugin-eslint:
         specifier: ^1.8.1
-        version: 1.8.1(eslint@8.36.0)(vite@4.3.3)
+        version: 1.8.1(eslint@8.36.0)(vite@4.3.9)
       vite-tsconfig-paths:
         specifier: 4.2.0
-        version: 4.2.0(typescript@5.0.4)(vite@4.3.3)
+        version: 4.2.0(typescript@5.0.4)(vite@4.3.9)
       vitest:
         specifier: 0.30.1
         version: 0.30.1(@vitest/ui@0.32.0)(jsdom@20.0.3)(sass@1.58.1)
@@ -1947,14 +1947,14 @@ packages:
       uuid: 8.3.2
     dev: true
 
-  /@cypress/vite-dev-server@2.2.3(vite@4.3.3):
+  /@cypress/vite-dev-server@2.2.3(vite@4.3.9):
     resolution: {integrity: sha512-E9cPKwReweYGRsupfR6Va1R1bHv3zPb3gHG68fyQwAjG4oPORaQlgfFWiR2i1pF+tRftvNfM0O2PBuKX3IvPxg==}
     peerDependencies:
       vite: '>= 2.1.3'
     dependencies:
       debug: 4.3.4(supports-color@8.1.1)
       get-port: 5.1.1
-      vite: 4.3.3(@types/node@18.16.1)(sass@1.58.1)
+      vite: 4.3.9(@types/node@18.16.1)(sass@1.58.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3680,10 +3680,10 @@ packages:
       - debug
     dev: true
 
-  /@nrwl/vite@16.0.3(nx@16.0.3)(typescript@5.0.4)(vite@4.3.3)(vitest@0.30.1):
+  /@nrwl/vite@16.0.3(nx@16.0.3)(typescript@5.0.4)(vite@4.3.9)(vitest@0.30.1):
     resolution: {integrity: sha512-+CLfbN4gZ2RUx6nCsnQUwDr3igLLryGkwK8cCy5eK6rlcLwJHM7GGMQI8d5aZ44V00CvnYB3mCx/6XpRQCJ+Fg==}
     dependencies:
-      '@nx/vite': 16.0.3(nx@16.0.3)(typescript@5.0.4)(vite@4.3.3)(vitest@0.30.1)
+      '@nx/vite': 16.0.3(nx@16.0.3)(typescript@5.0.4)(vite@4.3.9)(vitest@0.30.1)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -4207,20 +4207,20 @@ packages:
       - typescript
     dev: true
 
-  /@nx/vite@16.0.3(nx@16.0.3)(typescript@5.0.4)(vite@4.3.3)(vitest@0.30.1):
+  /@nx/vite@16.0.3(nx@16.0.3)(typescript@5.0.4)(vite@4.3.9)(vitest@0.30.1):
     resolution: {integrity: sha512-vViP2Wd2IUJHqpXAhnun+nRWrHmHeVlHX4d6mgVYrAg2TOx4U/XWlWWP6jxEDX6mQIsyKDVUNV2wvzTb4NNxmw==}
     peerDependencies:
       vite: ^4.0.1
       vitest: '>=0.25.8 <1.0.0'
     dependencies:
-      '@nrwl/vite': 16.0.3(nx@16.0.3)(typescript@5.0.4)(vite@4.3.3)(vitest@0.30.1)
+      '@nrwl/vite': 16.0.3(nx@16.0.3)(typescript@5.0.4)(vite@4.3.9)(vitest@0.30.1)
       '@nx/devkit': 16.0.3(nx@16.0.3)
       '@nx/js': 16.0.3(nx@16.0.3)(typescript@5.0.4)
       '@phenomnomnominal/tsquery': 5.0.1(typescript@5.0.4)
       '@swc/helpers': 0.5.1
       dotenv: 10.0.0
       enquirer: 2.3.6
-      vite: 4.3.3(@types/node@18.16.1)(sass@1.58.1)
+      vite: 4.3.9(@types/node@18.16.1)(sass@1.58.1)
       vitest: 0.30.1(@vitest/ui@0.32.0)(jsdom@20.0.3)(sass@1.58.1)
     transitivePeerDependencies:
       - '@babel/traverse'
@@ -5027,7 +5027,7 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/builder-vite@7.0.8(typescript@5.0.4)(vite@4.3.3):
+  /@storybook/builder-vite@7.0.8(typescript@5.0.4)(vite@4.3.9):
     resolution: {integrity: sha512-Zj2LCObL4+y0qVkvIyFY+mV/TQl980bWX6gqvL1bYJ2dMV4jDekM1imoiYXkBs5dBN90Y76IOd+78KTjfz1hmg==}
     peerDependencies:
       '@preact/preset-vite': '*'
@@ -5063,7 +5063,7 @@ packages:
       remark-slug: 6.1.0
       rollup: 3.20.1
       typescript: 5.0.4
-      vite: 4.3.3(@types/node@18.16.1)(sass@1.58.1)
+      vite: 4.3.9(@types/node@18.16.1)(sass@1.58.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5497,12 +5497,12 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
-  /@storybook/html-vite@7.0.8(@babel/core@7.21.3)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4)(vite@4.3.3):
+  /@storybook/html-vite@7.0.8(@babel/core@7.21.3)(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.4)(vite@4.3.9):
     resolution: {integrity: sha512-CwcvF+wS1SUYf0VG9xFwOp4JeURyJbwOSsqvcVbDQHgkunnTm//z2ntdnu187KZ2NxoL8Wy+ziQPBWUaHi50PQ==}
     engines: {node: ^14.18 || >=16}
     dependencies:
       '@storybook/addons': 7.0.8(react-dom@18.2.0)(react@18.2.0)
-      '@storybook/builder-vite': 7.0.8(typescript@5.0.4)(vite@4.3.3)
+      '@storybook/builder-vite': 7.0.8(typescript@5.0.4)(vite@4.3.9)
       '@storybook/channel-postmessage': 7.0.8
       '@storybook/channel-websocket': 7.0.8
       '@storybook/client-api': 7.0.8
@@ -16387,13 +16387,13 @@ packages:
     resolution: {integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==}
     engines: {node: '>=10'}
 
-  /qwik-nx@1.0.0(eslint@8.36.0)(nx@16.0.3)(typescript@5.0.4)(vite@4.3.3)(vitest@0.30.1):
+  /qwik-nx@1.0.0(eslint@8.36.0)(nx@16.0.3)(typescript@5.0.4)(vite@4.3.9)(vitest@0.30.1):
     resolution: {integrity: sha512-C4jr32flLLyZ0Q+GK08sKiI9WF5usdl9X+WQ8QI6R6AebXYYuVU49jLS2UhGF/3T6YSOJ2QTL6NkbnTY4XVa9g==}
     dependencies:
       '@nx/devkit': 16.0.3(nx@16.0.3)
       '@nx/js': 16.0.3(nx@16.0.3)(typescript@5.0.4)
       '@nx/linter': 16.0.3(eslint@8.36.0)(nx@16.0.3)(typescript@5.0.4)
-      '@nx/vite': 16.0.3(nx@16.0.3)(typescript@5.0.4)(vite@4.3.3)(vitest@0.30.1)
+      '@nx/vite': 16.0.3(nx@16.0.3)(typescript@5.0.4)(vite@4.3.9)(vitest@0.30.1)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -17510,14 +17510,14 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-framework-qwik@0.2.0(@builder.io/qwik@1.0.0)(typescript@5.0.4)(vite@4.3.3):
+  /storybook-framework-qwik@0.2.0(@builder.io/qwik@1.0.0)(typescript@5.0.4)(vite@4.3.9):
     resolution: {integrity: sha512-qu8aRd4PZSCPmCyQSVFBzXxrF0G54JWBao3GRy5MjD0CxO7NvxNTevXOwVb/aF5pzawXb3nkz4RiG5X1MlolRQ==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
       '@builder.io/qwik': 1.0.0(undici@5.22.0)
-      '@storybook/builder-vite': 7.0.8(typescript@5.0.4)(vite@4.3.3)
+      '@storybook/builder-vite': 7.0.8(typescript@5.0.4)(vite@4.3.9)
       '@storybook/docs-tools': 7.0.8
       '@storybook/types': 7.0.8
       magic-string: 0.30.0
@@ -18837,7 +18837,7 @@ packages:
       picocolors: 1.0.0
       source-map: 0.6.1
       source-map-support: 0.5.21
-      vite: 4.3.3(@types/node@18.16.1)(sass@1.58.1)
+      vite: 4.3.9(@types/node@18.16.1)(sass@1.58.1)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -18858,7 +18858,7 @@ packages:
       mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.3.3(@types/node@18.16.1)(sass@1.58.1)
+      vite: 4.3.9(@types/node@18.16.1)(sass@1.58.1)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -18869,7 +18869,7 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-dts@1.7.3(@types/node@18.16.1)(vite@4.3.3):
+  /vite-plugin-dts@1.7.3(@types/node@18.16.1)(vite@4.3.9):
     resolution: {integrity: sha512-u3t45p6fTbzUPMkwYe0ESwuUeiRMlwdPfD3dRyDKUwLe2WmEYcFyVp2o9/ke2EMrM51lQcmNWdV9eLcgjD1/ng==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -18883,14 +18883,14 @@ packages:
       fs-extra: 10.1.0
       kolorist: 1.7.0
       ts-morph: 17.0.1
-      vite: 4.3.3(@types/node@18.16.1)(sass@1.58.1)
+      vite: 4.3.9(@types/node@18.16.1)(sass@1.58.1)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
     dev: true
 
-  /vite-plugin-eslint@1.8.1(eslint@8.36.0)(vite@4.3.3):
+  /vite-plugin-eslint@1.8.1(eslint@8.36.0)(vite@4.3.9):
     resolution: {integrity: sha512-PqdMf3Y2fLO9FsNPmMX+//2BF5SF8nEWspZdgl4kSt7UvHDRHVVfHvxsD7ULYzZrJDGRxR81Nq7TOFgwMnUang==}
     peerDependencies:
       eslint: '>=7'
@@ -18900,7 +18900,7 @@ packages:
       '@types/eslint': 8.37.0
       eslint: 8.36.0
       rollup: 2.79.1
-      vite: 4.3.3(@types/node@18.16.1)(sass@1.58.1)
+      vite: 4.3.9(@types/node@18.16.1)(sass@1.58.1)
     dev: true
 
   /vite-plugin-istanbul@3.0.4:
@@ -18914,7 +18914,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths@4.2.0(typescript@5.0.4)(vite@4.3.3):
+  /vite-tsconfig-paths@4.2.0(typescript@5.0.4)(vite@4.3.9):
     resolution: {integrity: sha512-jGpus0eUy5qbbMVGiTxCL1iB9ZGN6Bd37VGLJU39kTDD6ZfULTTb1bcc5IeTWqWJKiWV5YihCaibeASPiGi8kw==}
     peerDependencies:
       vite: '*'
@@ -18925,14 +18925,14 @@ packages:
       debug: 4.3.4(supports-color@8.1.1)
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.0.4)
-      vite: 4.3.3(@types/node@18.16.1)(sass@1.58.1)
+      vite: 4.3.9(@types/node@18.16.1)(sass@1.58.1)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@4.3.3(@types/node@18.16.1)(sass@1.58.1):
-    resolution: {integrity: sha512-MwFlLBO4udZXd+VBcezo3u8mC77YQk+ik+fbc0GZWGgzfbPP+8Kf0fldhARqvSYmtIWoAJ5BXPClUbMTlqFxrA==}
+  /vite@4.3.9(@types/node@18.16.1)(sass@1.58.1):
+    resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -19010,7 +19010,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.1
       tinyspy: 1.1.1
-      vite: 4.3.3(@types/node@18.16.1)(sass@1.58.1)
+      vite: 4.3.9(@types/node@18.16.1)(sass@1.58.1)
       vite-node: 0.28.5(@types/node@18.16.1)(sass@1.58.1)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
@@ -19078,7 +19078,7 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.4.0
-      vite: 4.3.3(@types/node@18.16.1)(sass@1.58.1)
+      vite: 4.3.9(@types/node@18.16.1)(sass@1.58.1)
       vite-node: 0.30.1(@types/node@18.16.1)(sass@1.58.1)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
