@@ -23,7 +23,7 @@
     "@commitlint/cli": "^17.4.3",
     "@commitlint/config-angular": "^17.4.3",
     "@commitlint/config-conventional": "^17.4.3",
-    "@cypress/code-coverage": "3.10.0",
+    "@cypress/code-coverage": "3.10.7",
     "@cypress/vite-dev-server": "^2.2.1",
     "@floating-ui/dom": "1.0.10",
     "@frsource/cypress-plugin-visual-regression-diff": "3.3.5",
