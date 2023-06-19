@@ -80,7 +80,7 @@
     "lodash.includes": "4.3.0",
     "ngx-deploy-npm": "^5.0.0",
     "node-fetch": "3.3.0",
-    "np": "7.6.3",
+    "np": "8.0.4",
     "nx": "16.0.3",
     "nx-cloud": "16.0.5",
     "postcss": "^8.4.21",
