@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 importers:
 
   .:
@@ -9,8 +13,8 @@ importers:
         version: 2.5.0
     devDependencies:
       '@builder.io/qwik':
-        specifier: 1.0.0
-        version: 1.0.0(undici@5.22.0)
+        specifier: 1.2.6
+        version: 1.2.6(undici@5.22.0)
       '@builder.io/qwik-city':
         specifier: 1.0.0
         version: 1.0.0
@@ -148,7 +152,7 @@ importers:
         version: 1.4.0(axe-core@4.6.3)(cypress@12.9.0)
       cypress-ct-qwik:
         specifier: 0.3.0
-        version: 0.3.0(@builder.io/qwik@1.0.0)(cypress@12.9.0)
+        version: 0.3.0(@builder.io/qwik@1.2.6)(cypress@12.9.0)
       cz-conventional-changelog:
         specifier: ^3.3.0
         version: 3.3.0
@@ -229,7 +233,7 @@ importers:
         version: 7.0.0-rc.7
       storybook-framework-qwik:
         specifier: 0.2.0
-        version: 0.2.0(@builder.io/qwik@1.0.0)(typescript@5.0.4)(vite@4.3.3)
+        version: 0.2.0(@builder.io/qwik@1.2.6)(typescript@5.0.4)(vite@4.3.3)
       tailwindcss:
         specifier: ^3.2.6
         version: 3.2.6(postcss@8.4.21)(ts-node@10.9.1)
@@ -1687,13 +1691,14 @@ packages:
       - supports-color
     dev: true
 
-  /@builder.io/qwik@1.0.0(undici@5.22.0):
-    resolution: {integrity: sha512-U1eTIKTBUiW2dbPMCaTzS7K1bMCI9ovtfsvdduwnVThGXRSrX+v2X4U/UmHHPzfOjC55X5wYLc17cw5EwFBVVA==}
+  /@builder.io/qwik@1.2.6(undici@5.22.0):
+    resolution: {integrity: sha512-Cm1sLAimML55I5T1RI80R1lLgI4cnSeQt5obQtcMKa8wMmf2/luEyQaEkeN2fV3sp/gaVXCfAuKaddXK6ONdww==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
     peerDependencies:
       undici: ^5.14.0
     dependencies:
+      csstype: 3.1.2
       undici: 5.22.0
     dev: true
 
@@ -6224,7 +6229,7 @@ packages:
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
-      csstype: 3.1.1
+      csstype: 3.1.2
     dev: true
 
   /@types/responselike@1.0.0:
@@ -8870,8 +8875,8 @@ packages:
       cssom: 0.3.8
     dev: true
 
-  /csstype@3.1.1:
-    resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
+  /csstype@3.1.2:
+    resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: true
 
   /cwd@0.10.0:
@@ -8893,13 +8898,13 @@ packages:
       cypress: 12.9.0
     dev: true
 
-  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.0.0)(cypress@12.9.0):
+  /cypress-ct-qwik@0.3.0(@builder.io/qwik@1.2.6)(cypress@12.9.0):
     resolution: {integrity: sha512-S1PcR6BbZMHprTYmYvYcZODNFy+WOQewUIWCGRA2ruq4H6I2zJSVLy0VxynKuxgSx3OKp5GYUIXSTmdxkTdk4Q==}
     peerDependencies:
       '@builder.io/qwik': '>0.23.0'
       cypress: '>=12.8.1'
     dependencies:
-      '@builder.io/qwik': 1.0.0(undici@5.22.0)
+      '@builder.io/qwik': 1.2.6(undici@5.22.0)
       '@cypress/mount-utils': 4.0.0
       cypress: 12.9.0
     dev: true
@@ -17510,13 +17515,13 @@ packages:
     resolution: {integrity: sha512-siT1RiqlfQnGqgT/YzXVUNsom9S0H1OX+dpdGN1xkyYATo4I6sep5NmsRD/40s3IIOvlCq6akxkqG82urIZW1w==}
     dev: true
 
-  /storybook-framework-qwik@0.2.0(@builder.io/qwik@1.0.0)(typescript@5.0.4)(vite@4.3.3):
+  /storybook-framework-qwik@0.2.0(@builder.io/qwik@1.2.6)(typescript@5.0.4)(vite@4.3.3):
     resolution: {integrity: sha512-qu8aRd4PZSCPmCyQSVFBzXxrF0G54JWBao3GRy5MjD0CxO7NvxNTevXOwVb/aF5pzawXb3nkz4RiG5X1MlolRQ==}
     engines: {node: ^14.18 || >=16}
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
-      '@builder.io/qwik': 1.0.0(undici@5.22.0)
+      '@builder.io/qwik': 1.2.6(undici@5.22.0)
       '@storybook/builder-vite': 7.0.8(typescript@5.0.4)(vite@4.3.3)
       '@storybook/docs-tools': 7.0.8
       '@storybook/types': 7.0.8
